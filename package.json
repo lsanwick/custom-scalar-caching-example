@@ -1,0 +1,20 @@
+{
+  "name": "custom-scalar-caching-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "fastify start -w -l info -P --options app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^4.17.0",
+    "fastify-cli": "^5.7.1",
+    "graphql": "^16.6.0",
+    "luxon": "^3.3.0",
+    "mercurius": "^13.0.0"
+  }
+}
